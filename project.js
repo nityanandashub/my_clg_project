@@ -28,6 +28,7 @@ const checkwin =()=>{
 		if((boxtexts[e[0]].innerText===boxtexts[e[1]].innerText) && (boxtexts[e[2]].innerText===boxtexts[e[1]].innerText) && (boxtexts[e[0]].innerText !==''))
 			{document.getElementsByClassName("info")[0].innerText=boxtexts[e[0]].innerText+" won";
 		isgameover=true;
+		img.src="excited.gif";
 		img.style.width = "200px";
 		img.style.display = "block";
 		img.style.transition = "width 0.5s ease-and-out";
