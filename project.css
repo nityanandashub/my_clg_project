@@ -105,6 +105,9 @@ nav
 		grid-template-rows: repeat(3, 20vw);
 	    grid-template-columns: repeat(3, 20vw);		
 	}
+	.container{
+    position: relative;
+}
 	.line{
     position: absolute;
     background: red;
@@ -114,7 +117,4 @@ nav
     transition: width 0.5s ease-in-out;
 }
 
-}
-.container{
-    position: relative;
 }
